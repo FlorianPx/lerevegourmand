@@ -1,11 +1,5 @@
 import styled from "styled-components";
-
-const theme = {
-  width: "1em",
-  title: "#c1254a",
-  pink: "#de5475",
-  yellow: "#cf8c17",
-};
+import themes from "../../themes";
 
 export const HeaderContainer = styled.header`
   position: relative;
@@ -21,12 +15,12 @@ export const LogoTitle = styled.h1`
   left: 0;
   right: 0;
   top: -41px;
-  color: ${theme.title};
+  color: ${themes.title};
 `;
 export const NavbarList = styled.ul`
   display: flex;
   justify-content: center;
-  color: ${theme.yellow};
+  color: ${themes.yellow};
   list-style: none;
   padding-top: 1rem;
 `;
@@ -39,15 +33,23 @@ export const Image = styled.img`
   border-radius: 30px;
   margin-bottom: 2rem;
 `;
+export const TextHeader = styled.p`
+  position: absolute;
+  top: 42%;
+  color: white;
+  font-family: "Futura";
+  font-weight: 600;
+  padding: 0 37%;
+`;
 export const PinkBlock = styled.div`
-  background-color: ${theme.pink};
-  width: ${theme.width};
-  height: calc(2 * ${theme.width});
+  background-color: ${themes.pink};
+  width: ${themes.width};
+  height: calc(2 * ${themes.width});
   border-radius: 30px;
 `;
 export const YellowBlock = styled.div`
-  background-color: ${theme.yellow};
+  background-color: ${themes.yellow};
   width: 20rem;
-  height: ${theme.width};
+  height: ${themes.width};
   border-radius: 30px;
 `;

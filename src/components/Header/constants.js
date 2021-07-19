@@ -6,3 +6,6 @@ export const navbarArray = [
   "Food Truck",
   "Contact",
 ];
+
+export const textHeader =
+  "Retrouvez la générosité et la passion du fait maison";
