@@ -1,5 +1,6 @@
 import {
   Image,
+  PictureContainer,
   TextHeader,
   // PinkBlock,
   // YellowBlock
@@ -9,12 +10,12 @@ import { textHeader } from "./constants";
 
 function Picture() {
   return (
-    <div style={{ fontSize: "16px" }}>
+    <PictureContainer>
       {/* <PinkBlock /> */}
       <Image src={headerPicture} alt="Décoration" />
       <TextHeader>{textHeader}</TextHeader>
       {/* <YellowBlock /> */}
-    </div>
+    </PictureContainer>
   );
 }
 

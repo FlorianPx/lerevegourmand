@@ -28,18 +28,25 @@ export const NavbarItem = styled.li`
   cursor: pointer;
   padding: 0 0.5rem;
 `;
+export const PictureContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 export const Image = styled.img`
-  width: 85%;
+  position: relative;
+  max-width: 85%;
   border-radius: 30px;
   margin-bottom: 2rem;
 `;
 export const TextHeader = styled.p`
   position: absolute;
-  top: 42%;
+  top: 45%;
   color: white;
+  font-size: 2rem;
   font-family: "Futura";
   font-weight: 600;
-  padding: 0 37%;
+  max-width: 24rem;
+  margin: 0;
 `;
 export const PinkBlock = styled.div`
   background-color: ${themes.pink};
