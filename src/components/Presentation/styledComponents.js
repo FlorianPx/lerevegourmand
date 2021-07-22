@@ -1,0 +1,12 @@
+import styled from "styled-components";
+
+export const PresentationContainer = styled.div``;
+export const TextContainer = styled.div`
+  text-align: start;
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
+  &:first-child {
+    margin-bottom: 1rem;
+  }
+`;
