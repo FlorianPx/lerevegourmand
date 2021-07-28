@@ -3,7 +3,7 @@ import { NavbarItem, NavbarList } from "./styledComponents";
 
 function Navbar() {
   const navbarElements = navbarArray.map((element) => (
-    <NavbarItem>{element.toUpperCase()}</NavbarItem>
+    <NavbarItem key={element}>{element.toUpperCase()}</NavbarItem>
   ));
   return (
     <nav>

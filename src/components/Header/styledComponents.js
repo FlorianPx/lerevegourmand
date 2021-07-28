@@ -5,22 +5,21 @@ export const HeaderContainer = styled.header`
   position: relative;
   left: 0;
   right: 0;
-  margin-top: 30px;
-  width: 90%;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
+  margin: 2rem 2rem 6rem;
 `;
 export const LogoTitle = styled.h1`
   position: absolute;
   left: 0;
   right: 0;
   top: -41px;
-  color: ${themes.title};
+  color: ${themes.pinkFontTitle};
 `;
 export const NavbarList = styled.ul`
   display: flex;
   justify-content: center;
-  color: ${themes.yellow};
+  color: ${themes.yellowFont};
   list-style: none;
   padding-top: 1rem;
 `;
@@ -38,7 +37,7 @@ export const Image = styled.img`
   border-radius: 30px;
   margin-bottom: 2rem;
 `;
-export const TextHeader = styled.p`
+export const TextHeader = styled.h2`
   position: absolute;
   top: 45%;
   color: white;
