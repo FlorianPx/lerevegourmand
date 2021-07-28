@@ -1,11 +1,15 @@
 import React from "react";
 
-function TitleBlock({ titleBlock }) {
+import { TitleBlockContainer, Title, Image } from "./styledComponents";
+
+function TitleBlock({ defaultTheme }) {
+  const { titleBlock, logoBlock, themeColor } = defaultTheme;
+
   return (
-    <div>
-      <h1>{titleBlock}</h1>
-      <img />
-    </div>
+    <TitleBlockContainer themeColor={themeColor}>
+      <Title themeColor={themeColor}>{titleBlock.toUpperCase()}</Title>
+      <Image src={logoBlock} alt={titleBlock} />
+    </TitleBlockContainer>
   );
 }
 
