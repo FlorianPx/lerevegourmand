@@ -1,8 +1,11 @@
 export const themes = {
   width: "1em",
-  title: "#c1254a",
-  pink: "#de5475",
-  yellow: "#cf8c17",
+  pinkFontTitle: "#c1254a",
+  yellowFontTitle: "#ebb047",
+  pinkFont: "#c1254a",
+  yellowFont: "#cf8c17",
+  lightPink: "#fceef1",
+  lightYellow: "#fdf7ed",
 };
 
 export default themes;
