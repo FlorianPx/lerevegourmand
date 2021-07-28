@@ -9,6 +9,7 @@ const defaultTheme = {
   titleBlock: "Le Food Truck",
   logoBlock: FoodTruck,
   themeColor: "pink",
+  horizontalLocation: "left",
 };
 
 function Presentation() {

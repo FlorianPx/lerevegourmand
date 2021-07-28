@@ -14,6 +14,12 @@
   font-weight: 800;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Futura", "Helvetica Neue", "Arial", sans-serif;

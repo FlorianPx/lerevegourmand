@@ -4,8 +4,6 @@ export const PresentationContainer = styled.div`
   position: relative;
 `;
 export const TextContainer = styled.div`
-  text-align: start;
-  width: 40%;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   &:first-child {

@@ -7,7 +7,8 @@ export const HeaderContainer = styled.header`
   right: 0;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
-  margin: 2rem 2rem 6rem;
+  margin: 2rem 0 6rem;
+  text-align: center;
 `;
 export const LogoTitle = styled.h1`
   position: absolute;
@@ -21,7 +22,7 @@ export const NavbarList = styled.ul`
   justify-content: center;
   color: ${themes.yellowFont};
   list-style: none;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
 `;
 export const NavbarItem = styled.li`
   cursor: pointer;

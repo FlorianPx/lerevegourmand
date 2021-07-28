@@ -7,7 +7,7 @@ function Text() {
   return (
     <TextContainer>
       <p>{presentationTextOne}</p>
-      <p>{presentationTextTwo}</p>
+      <p dangerouslySetInnerHTML={{ __html: presentationTextTwo }} />
     </TextContainer>
   );
 }
