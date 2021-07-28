@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const PresentationContainer = styled.div``;
+export const PresentationContainer = styled.div`
+  position: relative;
+`;
 export const TextContainer = styled.div`
   text-align: start;
   width: 40%;
@@ -9,4 +11,6 @@ export const TextContainer = styled.div`
   &:first-child {
     margin-bottom: 1rem;
   }
+  background-color: white;
+  padding: 1rem;
 `;
