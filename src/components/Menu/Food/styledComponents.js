@@ -10,6 +10,7 @@ export const ListContainer = styled.ul`
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
   padding: 1rem 10rem 1rem 1rem;
+  margin: 0;
 `;
 export const List = styled.li`
   list-style: none;
@@ -22,6 +23,7 @@ export const FoodPriceSection = styled.div`
 `;
 export const Title = styled.h4`
   color: ${themes.pinkFont};
+  font-weight: 600;
   margin: 0;
 `;
 export const Price = styled.span`
@@ -33,6 +35,6 @@ export const Text = styled.p`
 `;
 export const Block = styled.div`
   height: 2px;
-  width: 70%;
+  width: 65%;
   background-color: ${themes.lightPink};
 `;

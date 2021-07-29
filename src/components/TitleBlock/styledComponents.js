@@ -11,12 +11,12 @@ export const TitleBlockContainer = styled.div`
   background-color: ${(props) =>
     props.themeColor === "pink" ? themes.lightPink : themes.lightYellow};
   border-radius: 30px;
-  padding: 1rem 1.5rem 4rem;
+  padding: 1rem 2rem 4rem;
 `;
 export const Title = styled.h3`
   color: ${(props) =>
     props.themeColor === "pink" ? themes.pinkFontTitle : themes.yellowFont};
-  margin: 0 0.5rem 0 0;
+  margin: 0 0.6rem 0 0;
 `;
 export const Image = styled.img`
   width: 1.5rem;
