@@ -11,8 +11,8 @@ function TitleBlock({ defaultTheme }) {
       themeColor={themeColor}
       horizontalLocation={horizontalLocation}
     >
-      <Title themeColor={themeColor}>{titleBlock.toUpperCase()}</Title>
-      <Image src={logoBlock} alt={titleBlock} />
+      <Title themeColor={themeColor}>{titleBlock}</Title>
+      {logoBlock ? <Image src={logoBlock} alt={titleBlock} /> : null}
     </TitleBlockContainer>
   );
 }

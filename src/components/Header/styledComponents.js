@@ -22,7 +22,7 @@ export const NavbarList = styled.ul`
   justify-content: center;
   color: ${themes.yellowFont};
   list-style: none;
-  padding-top: 1.5rem;
+  padding: 2rem 0 0 0;
 `;
 export const NavbarItem = styled.li`
   cursor: pointer;

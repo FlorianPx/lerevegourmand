@@ -6,7 +6,7 @@ import { PresentationContainer } from "./styledComponents";
 import FoodTruck from "../../assets/images/foodtruck.svg";
 
 const defaultTheme = {
-  titleBlock: "Le Food Truck",
+  titleBlock: "Le food truck",
   logoBlock: FoodTruck,
   themeColor: "pink",
   horizontalLocation: "left",
