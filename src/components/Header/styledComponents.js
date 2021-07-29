@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   right: 0;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
-  margin: 2rem 0 6rem;
+  margin: 2rem 0 8rem;
   text-align: center;
 `;
 export const LogoTitle = styled.h1`

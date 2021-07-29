@@ -15,6 +15,7 @@ export const ListContainer = styled.ul`
 export const List = styled.li`
   list-style: none;
   margin-bottom: 1rem;
+  max-width: 26rem;
 `;
 export const FoodPriceSection = styled.div`
   display: flex;
@@ -35,6 +36,6 @@ export const Text = styled.p`
 `;
 export const Block = styled.div`
   height: 2px;
-  width: 65%;
+  width: 54%;
   background-color: ${themes.lightPink};
 `;

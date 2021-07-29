@@ -9,8 +9,8 @@ function Menu() {
   return (
     <MenuContainer>
       <Food />
-      <Dessert />
       <Price />
+      <Dessert />
     </MenuContainer>
   );
 }

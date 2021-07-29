@@ -11,7 +11,7 @@ import {
 import { DessertArray } from "./constants";
 
 const defaultTheme = {
-  titleBlock: "Les dessert et boissons",
+  titleBlock: "Les desserts et boissons",
   logoBlock: "",
   themeColor: "pink",
   horizontalLocation: "right",

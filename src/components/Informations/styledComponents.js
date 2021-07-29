@@ -6,5 +6,5 @@ export const InformationContainer = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 40px;
   grid-row-gap: 0px;
-  margin: 2rem 0 6rem;
+  margin: 2rem 0 8rem;
 `;
