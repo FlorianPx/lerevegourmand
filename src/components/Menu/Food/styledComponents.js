@@ -9,7 +9,7 @@ export const ListContainer = styled.ul`
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 1rem 10rem 1rem 1rem;
+  padding: 1rem 10rem 1rem 3rem;
   margin: 0;
 `;
 export const List = styled.li`

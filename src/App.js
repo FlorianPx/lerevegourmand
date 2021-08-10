@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import Informations from "./components/Informations/Informations";
 import Menu from "./components/Menu/Menu";
+import Pastries from "./components/Pastries/Pastries";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Informations />
       <Menu />
+      <Pastries />
     </div>
   );
 }

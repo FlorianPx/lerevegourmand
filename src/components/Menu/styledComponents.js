@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const MenuContainer = styled.div`
+export const MenuContainer = styled.section`
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0 8rem;
+  margin: 2rem auto 10rem;
 `;

@@ -1,7 +1,7 @@
 export const themes = {
-  width: "1em",
-  pinkFontTitle: "#c1254a",
-  yellowFontTitle: "#ebb047",
+  width: "4%",
+  pinkBlock: "#de5475",
+  yellowBlock: "#ebb047",
   pinkFont: "#c1254a",
   yellowFont: "#cf8c17",
   lightPink: "#fceef1",

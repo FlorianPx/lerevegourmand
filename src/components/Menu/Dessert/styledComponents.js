@@ -6,15 +6,19 @@ export const DessertContainer = styled.div`
   position: relative;
 `;
 export const ListContainer = styled.ul`
+  height: 100%;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 1rem 1rem 1rem 10rem;
+  padding: 1rem 3rem 1rem 10rem;
   margin: 0;
 `;
 export const List = styled.li`
   list-style: none;
   margin-bottom: 1rem;
+  &:last-child {
+    margin-top: 3rem;
+  }
 `;
 export const Title = styled.h4`
   color: ${themes.pinkFont};

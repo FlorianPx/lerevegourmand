@@ -13,7 +13,7 @@ function checkHorizontalLocation(props) {
 
 export const TitleBlockContainer = styled.div`
   position: absolute;
-  top: -3.5rem;
+  top: -4rem;
   ${(props) => checkHorizontalLocation(props)};
   z-index: -1;
   display: flex;
@@ -25,7 +25,7 @@ export const TitleBlockContainer = styled.div`
 export const Title = styled.h3`
   font-size: 1.5rem;
   color: ${(props) =>
-    props.themeColor === "pink" ? themes.pinkFontTitle : themes.yellowFont};
+    props.themeColor === "pink" ? themes.pinkFont : themes.yellowFont};
   margin: 0 0.6rem 0 0;
 `;
 export const Image = styled.img`
