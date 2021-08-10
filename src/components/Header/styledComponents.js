@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   position: relative;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
-  margin: 2rem auto 10rem;
+  margin: 2rem 0 10rem;
   text-align: center;
   width: 100%;
 `;
