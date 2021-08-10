@@ -6,6 +6,7 @@ export const DessertContainer = styled.div`
   position: relative;
 `;
 export const ListContainer = styled.ul`
+  height: 100%;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
@@ -15,6 +16,9 @@ export const ListContainer = styled.ul`
 export const List = styled.li`
   list-style: none;
   margin-bottom: 1rem;
+  &:last-child {
+    margin-top: 3rem;
+  }
 `;
 export const Title = styled.h4`
   color: ${themes.pinkFont};

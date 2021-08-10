@@ -19,9 +19,10 @@ export const Title = styled.h4`
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 2.5rem;
+  height: 20rem;
 `;

@@ -13,7 +13,7 @@ function checkHorizontalLocation(props) {
 
 export const TitleBlockContainer = styled.div`
   position: absolute;
-  top: -3.5rem;
+  top: -4rem;
   ${(props) => checkHorizontalLocation(props)};
   z-index: -1;
   display: flex;

@@ -11,8 +11,8 @@ const defaultTheme = {
   horizontalLocation: "center",
 };
 
-const formatMenu = menuArray.map((element) => (
-  <Title key={element.step}>{element.step}</Title>
+const formatMenu = menuArray.map((element, index) => (
+  <Title key={`step${index} - ${element.step}`}>{element.step}</Title>
 ));
 
 function Price() {
