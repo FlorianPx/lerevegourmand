@@ -3,7 +3,7 @@ import React from "react";
 import TitleBlock from "../TitleBlock/TitleBlock";
 import Text from "./Text";
 import { PresentationContainer } from "./styledComponents";
-import FoodTruck from "../../assets/images/foodtruck.svg";
+import FoodTruck from "../../assets/svg/foodtruck.svg";
 
 const defaultTheme = {
   titleBlock: "Le food truck",

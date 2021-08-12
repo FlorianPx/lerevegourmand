@@ -2,7 +2,7 @@ import React from "react";
 
 import { FoundMeContainer, Card, Image, Text, Title } from "./styledComponents";
 import TitleBlock from "../TitleBlock/TitleBlock";
-import MapLogo from "../../assets/images/map.svg";
+import MapLogo from "../../assets/svg/map.svg";
 import { foundMeArray } from "./constants";
 
 const defaultTheme = {

@@ -5,7 +5,7 @@ import themes from "../../themes";
 export const PastriesContainer = styled.section`
   position: relative;
   width: 60%;
-  margin: 2rem auto 5rem;
+  margin: 2rem auto 10rem;
 `;
 export const Container = styled.div`
   position: relative;

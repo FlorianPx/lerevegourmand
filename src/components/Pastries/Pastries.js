@@ -10,7 +10,7 @@ import {
 import TitleBlock from "../TitleBlock/TitleBlock";
 import { text } from "./constants";
 import RaspberryPie from "../../assets/images/raspberryPie.png";
-import Cake from "../../assets/images/cake.svg";
+import Cake from "../../assets/svg/cake.svg";
 
 const defaultTheme = {
   titleBlock: "Pâtisseries & viennoiseries",
