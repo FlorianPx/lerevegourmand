@@ -9,15 +9,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className="bodyContainer">
+    <>
+      <div className="App">
         <Header />
         <Informations />
         <Menu />
         <Pastries />
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -9,7 +9,7 @@ export const ListContainer = styled.ul`
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 1rem 10rem 1rem 3rem;
+  padding: 2rem 12rem 2rem 2rem;
   margin: 0;
 `;
 export const List = styled.li`
@@ -23,12 +23,12 @@ export const FoodPriceSection = styled.div`
   align-items: baseline;
 `;
 export const Title = styled.h4`
-  color: ${themes.pinkFont};
+  color: ${themes.darkPink};
   font-weight: 600;
   margin: 0;
 `;
 export const Price = styled.span`
-  color: ${themes.pinkFont};
+  color: ${themes.darkPink};
   margin: 0;
 `;
 export const Text = styled.p`
@@ -37,5 +37,5 @@ export const Text = styled.p`
 export const Block = styled.div`
   height: 2px;
   width: 54%;
-  background-color: ${themes.lightPink};
+  background-color: ${themes.lighterPink};
 `;

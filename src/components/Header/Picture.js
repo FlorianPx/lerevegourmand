@@ -11,8 +11,8 @@ import { textHeader } from "./constants";
 function Picture() {
   return (
     <PictureContainer>
-      <Image src={headerPicture} alt="Décoration" />
       <TextHeader>{textHeader}</TextHeader>
+      <Image src={headerPicture} alt="Décoration" />
       <PinkBlock />
       <YellowBlock />
     </PictureContainer>

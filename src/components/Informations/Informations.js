@@ -5,7 +5,7 @@ import { InformationContainer } from "./styledComponents";
 
 function Informations() {
   return (
-    <InformationContainer>
+    <InformationContainer id="foodtruck">
       <Presentation />
       <FoundMe />
     </InformationContainer>

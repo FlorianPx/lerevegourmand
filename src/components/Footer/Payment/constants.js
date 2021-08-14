@@ -1,4 +1,4 @@
-import cash from "../../../assets/images/cash.png";
+import cash from "../../../assets/svg/cash.svg";
 import blueCard from "../../../assets/svg/cb.svg";
 import visa from "../../../assets/svg/visa.svg";
 import visaPay from "../../../assets/svg/visaPay.svg";

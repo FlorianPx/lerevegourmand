@@ -8,7 +8,7 @@ export const FoundMeContainer = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 0.5rem;
 `;
-export const Card = styled.div`
+export const Card = styled.article`
   text-align: start;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
@@ -21,7 +21,7 @@ export const Image = styled.img`
   border-radius: 30px;
 `;
 export const Title = styled.h4`
-  color: ${themes.yellowFont};
+  color: ${themes.darkYellow};
   margin-bottom: 0;
 `;
 export const Text = styled.p`

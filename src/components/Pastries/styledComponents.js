@@ -34,7 +34,7 @@ export const Button = styled.button`
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   color: white;
-  background-color: ${themes.pinkFont};
+  background-color: ${themes.darkPink};
   padding: 0 3rem;
   cursor: pointer;
 `;

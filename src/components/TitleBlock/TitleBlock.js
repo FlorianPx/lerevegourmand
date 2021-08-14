@@ -12,7 +12,7 @@ function TitleBlock({ defaultTheme }) {
       horizontalLocation={horizontalLocation}
     >
       <Title themeColor={themeColor}>{titleBlock}</Title>
-      {logoBlock ? <Image src={logoBlock} alt={titleBlock} /> : null}
+      {logoBlock && <Image src={logoBlock} alt={titleBlock} />}
     </TitleBlockContainer>
   );
 }

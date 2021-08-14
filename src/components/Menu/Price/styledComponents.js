@@ -11,10 +11,11 @@ export const PriceContainer = styled.div`
   margin: 0 auto;
 `;
 export const Title = styled.h4`
-  color: ${themes.yellowFont};
+  color: ${themes.darkYellow};
   font-weight: 600;
   font-size: 2rem;
   margin: 0;
+  text-align: center;
 `;
 export const TextContainer = styled.div`
   display: flex;

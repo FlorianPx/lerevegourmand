@@ -17,18 +17,23 @@ const defaultTheme = {
   horizontalLocation: "right",
 };
 
-const elementsListe = DessertArray.map((element) => (
-  <List key={element.name}>
-    <Title>{element.name.toUpperCase()}</Title>
-    <Text>{element.flavor}</Text>
-  </List>
-));
+function Items() {
+  const elements = DessertArray.map((element) => (
+    <List key={element.name}>
+      <Title>{element.name.toUpperCase()}</Title>
+      <Text>{element.flavor}</Text>
+    </List>
+  ));
+  return elements;
+}
 
 function Dessert() {
   return (
     <DessertContainer>
       <TitleBlock defaultTheme={defaultTheme} />
-      <ListContainer>{elementsListe}</ListContainer>
+      <ListContainer>
+        <Items />
+      </ListContainer>
     </DessertContainer>
   );
 }

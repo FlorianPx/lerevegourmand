@@ -1,10 +1,9 @@
 export const title = "Le rêve gourmand";
 
 export const navbarArray = [
-  "Mon histoire",
-  "Pâtisseries",
-  "Food Truck",
-  "Contact",
+  { text: "Food Truck", href: "#foodtruck" },
+  { text: "Pâtisseries", href: "#patisseries" },
+  { text: "Contact", href: "#contact" },
 ];
 
 export const textHeader =

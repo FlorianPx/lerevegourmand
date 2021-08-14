@@ -23,11 +23,11 @@ function handleClick() {}
 
 function Pastries() {
   return (
-    <PastriesContainer>
+    <PastriesContainer id="patisseries">
       <TitleBlock defaultTheme={defaultTheme} />
       <Container>
         <Image src={RaspberryPie} alt="Tarte aux framboises" />
-        <Text>{text}</Text>
+        <Text dangerouslySetInnerHTML={{ __html: text }} />
       </Container>
       <Button onClick={handleClick}>Montrez-moi la carte</Button>
     </PastriesContainer>

@@ -15,14 +15,11 @@ const defaultTheme = {
 function CardEmplacement() {
   const elements = foundMeArray.map((card) => (
     <Card key={card.title}>
-      <li>
-        <a target="_blank" rel="noreferrer" href={card.url}>
-          <Image src={card.image} alt={card.title} />
-        </a>
-      </li>
+      <a target="_blank" rel="noreferrer" href={card.url}>
+        <Image src={card.image} alt={card.title} />
+      </a>
       <Title>{card.title}</Title>
-      <Text>{card.textOne}</Text>
-      <Text>{card.textTwo}</Text>
+      <Text>{card.text}</Text>
     </Card>
   ));
   return elements;

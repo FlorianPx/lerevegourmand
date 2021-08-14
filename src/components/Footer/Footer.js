@@ -4,7 +4,7 @@ import { FooterContainer } from "./styledComponents";
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="contact">
       <SocialNetwork />
       <Payment />
     </FooterContainer>

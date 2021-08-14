@@ -8,10 +8,13 @@ import {
   SocialLogo,
   BedenacLogo,
   Block,
+  ContactBlock,
+  PhoneLogo,
 } from "./styledComponents";
 import { socialNetWorkArray, bedenacArray } from "./constants";
-import bedenacLogo from "../../../assets/images/bedenacLogo.png";
 import { FooterTitle, FooterText } from "../styledComponents";
+import bedenacLogo from "../../../assets/images/bedenacLogo.png";
+import phoneLogo from "../../../assets/svg/phone.svg";
 
 const SocialElements = () =>
   socialNetWorkArray.map((socialNetwork) => (
@@ -53,18 +56,15 @@ function SocialNetwork() {
       </Block>
       <Block>
         <FooterTitle>Nous contacter</FooterTitle>
-        <List>
-          <Item>
-            <a
-              style={{ textDecoration: "none" }}
-              target="_blank"
-              rel="noreferrer"
-              href="tel:0785142887"
-            >
-              <FooterTitle>07 85 14 28 87</FooterTitle>
-            </a>
-          </Item>
-        </List>
+        <ContactBlock
+          target="_blank"
+          rel="noreferrer"
+          href="tel:0785142887"
+          title="Appeler le Rêve Gourmand"
+        >
+          <PhoneLogo src={phoneLogo} alt="Logo pour appeler le Rêve Gourmand" />
+          <FooterText>07 85 14 28 87</FooterText>
+        </ContactBlock>
       </Block>
       <Block>
         <FooterTitle>On parle du Rêve Gourmand</FooterTitle>

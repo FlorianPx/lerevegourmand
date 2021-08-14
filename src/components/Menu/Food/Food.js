@@ -20,27 +20,33 @@ const defaultTheme = {
   horizontalLocation: "left",
 };
 
-const elementsListe = foodArray.map((element) => (
-  <List key={element.name}>
-    <FoodPriceSection>
-      <Title>{element.name.toUpperCase()}</Title>
-      <Block />
-      <Price>
-        {Intl.NumberFormat("de-DE", {
-          style: "currency",
-          currency: "EUR",
-        }).format(element.price)}
-      </Price>
-    </FoodPriceSection>
-    <Text>{element.foodstuffs}</Text>
-  </List>
-));
+function Items() {
+  const elements = foodArray.map((element) => (
+    <List key={element.name}>
+      <FoodPriceSection>
+        <Title>{element.name.toUpperCase()}</Title>
+        <Block />
+        <Price>
+          {Intl.NumberFormat("fr-FR", {
+            style: "currency",
+            currency: "EUR",
+          }).format(element.price)}
+        </Price>
+      </FoodPriceSection>
+      <Text>{element.foodstuffs}</Text>
+    </List>
+  ));
+
+  return elements;
+}
 
 function Food() {
   return (
     <FoodContainer>
       <TitleBlock defaultTheme={defaultTheme} />
-      <ListContainer>{elementsListe}</ListContainer>
+      <ListContainer>
+        <Items />
+      </ListContainer>
     </FoodContainer>
   );
 }

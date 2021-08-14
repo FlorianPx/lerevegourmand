@@ -10,7 +10,7 @@ export const ListContainer = styled.ul`
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 1rem 3rem 1rem 10rem;
+  padding: 2rem 2rem 2rem 12rem;
   margin: 0;
 `;
 export const List = styled.li`
@@ -21,7 +21,7 @@ export const List = styled.li`
   }
 `;
 export const Title = styled.h4`
-  color: ${themes.pinkFont};
+  color: ${themes.darkPink};
   font-weight: 600;
   margin: 0;
 `;

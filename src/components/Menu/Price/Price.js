@@ -11,15 +11,28 @@ const defaultTheme = {
   horizontalLocation: "center",
 };
 
-const formatMenu = menuArray.map((element, index) => (
-  <Title key={`step${index} - ${element.step}`}>{element.step}</Title>
-));
+function Menu() {
+  const formatMenu = menuArray.map((element, index) => (
+    <Title key={`step${index} - ${element}`}>
+      {element}{" "}
+      {menuArray.length - 1 !== index && (
+        <span>
+          <br />+
+        </span>
+      )}
+    </Title>
+  ));
+
+  return formatMenu;
+}
 
 function Price() {
   return (
     <PriceContainer>
       <TitleBlock defaultTheme={defaultTheme} />
-      <TextContainer>{formatMenu}</TextContainer>
+      <TextContainer>
+        <Menu />
+      </TextContainer>
     </PriceContainer>
   );
 }

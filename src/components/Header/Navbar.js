@@ -1,13 +1,22 @@
 import { navbarArray } from "./constants";
-import { NavbarItem, NavbarList } from "./styledComponents";
+import { NavbarItem, NavbarList, NavbarLink } from "./styledComponents";
+
+function Items() {
+  const navbarElements = navbarArray.map((element) => (
+    <NavbarItem key={element}>
+      <NavbarLink href={element.href}>{element.text}</NavbarLink>
+    </NavbarItem>
+  ));
+
+  return navbarElements;
+}
 
 function Navbar() {
-  const navbarElements = navbarArray.map((element) => (
-    <NavbarItem key={element}>{element.toUpperCase()}</NavbarItem>
-  ));
   return (
     <nav>
-      <NavbarList>{navbarElements}</NavbarList>
+      <NavbarList>
+        <Items />
+      </NavbarList>
     </nav>
   );
 }
