@@ -2,8 +2,8 @@ import { navbarArray } from "./constants";
 import { NavbarItem, NavbarList, NavbarLink } from "./styledComponents";
 
 function Items() {
-  const navbarElements = navbarArray.map((element) => (
-    <NavbarItem key={element}>
+  const navbarElements = navbarArray.map((element, index) => (
+    <NavbarItem key={`${element} - ${index}`}>
       <NavbarLink href={element.href}>{element.text}</NavbarLink>
     </NavbarItem>
   ));

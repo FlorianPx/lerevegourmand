@@ -5,7 +5,7 @@ import { menuArray } from "./constants";
 import { PriceContainer, Title, TextContainer } from "./styledComponents";
 
 const defaultTheme = {
-  titleBlock: "La formule à 12€",
+  titleBlock: "Formule à 12€",
   logoBlock: "",
   themeColor: "yellow",
   horizontalLocation: "center",
@@ -14,15 +14,10 @@ const defaultTheme = {
 function Menu() {
   const formatMenu = menuArray.map((element, index) => (
     <Title key={`step${index} - ${element}`}>
-      {element}{" "}
-      {menuArray.length - 1 !== index && (
-        <span>
-          <br />+
-        </span>
-      )}
+      {element}
+      {menuArray.length - 1 !== index && <span>+</span>}
     </Title>
   ));
-
   return formatMenu;
 }
 

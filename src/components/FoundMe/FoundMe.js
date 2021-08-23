@@ -1,6 +1,13 @@
 import React from "react";
 
-import { FoundMeContainer, Card, Image, Text, Title } from "./styledComponents";
+import {
+  FoundMeContainer,
+  Card,
+  Anchor,
+  Image,
+  Text,
+  Title,
+} from "./styledComponents";
 import TitleBlock from "../TitleBlock/TitleBlock";
 import MapLogo from "../../assets/svg/map.svg";
 import { foundMeArray } from "./constants";
@@ -15,9 +22,9 @@ const defaultTheme = {
 function CardEmplacement() {
   const elements = foundMeArray.map((card) => (
     <Card key={card.title}>
-      <a target="_blank" rel="noreferrer" href={card.url}>
+      <Anchor target="_blank" rel="noreferrer" href={card.url}>
         <Image src={card.image} alt={card.title} />
-      </a>
+      </Anchor>
       <Title>{card.title}</Title>
       <Text>{card.text}</Text>
     </Card>

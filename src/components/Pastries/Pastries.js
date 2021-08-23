@@ -29,7 +29,7 @@ function Pastries() {
         <Image src={RaspberryPie} alt="Tarte aux framboises" />
         <Text dangerouslySetInnerHTML={{ __html: text }} />
       </Container>
-      <Button onClick={handleClick}>Montrez-moi la carte</Button>
+      <Button onClick={handleClick}>Télécharger la carte</Button>
     </PastriesContainer>
   );
 }

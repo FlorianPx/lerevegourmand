@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import themes from "../../themes/";
+import { devices } from "../constants";
 
 const colors = {
   pink: {
@@ -31,12 +32,25 @@ export const TitleBlockContainer = styled.div`
   background-color: ${(props) => colors[props.themeColor].backgroundColor};
   border-radius: 30px;
   padding: 1rem 2rem 4rem;
+
+  @media screen and (min-width: ${devices.tablet}px) {
+    padding: 1rem 2rem 4rem;
+  }
 `;
 export const Title = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: ${(props) => colors[props.themeColor].color};
-  margin: 0 0.6rem 0 0;
+  margin: 0;
+
+  @media screen and (min-width: ${devices.tablet}px) {
+    font-size: 1.5rem;
+    margin: 0 0.6rem 0 0;
+  }
 `;
 export const Image = styled.img`
   width: 1.5rem;
+  display: none;
+  @media screen and (min-width: ${devices.tablet}px) {
+    display: block;
+  }
 `;

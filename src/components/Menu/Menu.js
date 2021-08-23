@@ -8,8 +8,8 @@ import { MenuContainer } from "./styledComponents";
 function Menu() {
   return (
     <MenuContainer>
-      <Food />
       <Price />
+      <Food />
       <Dessert />
     </MenuContainer>
   );

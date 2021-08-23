@@ -8,6 +8,7 @@ import {
   SocialLogo,
   BedenacLogo,
   Block,
+  PressBlock,
   ContactBlock,
   PhoneLogo,
 } from "./styledComponents";
@@ -54,6 +55,13 @@ function SocialNetwork() {
           <SocialElements />
         </List>
       </Block>
+      <PressBlock>
+        <FooterTitle>On parle du Rêve Gourmand</FooterTitle>
+        <BedenacLogo alt="Commune de Bédenac" src={bedenacLogo} />
+        <List>
+          <SocialInformations />
+        </List>
+      </PressBlock>
       <Block>
         <FooterTitle>Nous contacter</FooterTitle>
         <ContactBlock
@@ -65,13 +73,6 @@ function SocialNetwork() {
           <PhoneLogo src={phoneLogo} alt="Logo pour appeler le Rêve Gourmand" />
           <FooterText>07 85 14 28 87</FooterText>
         </ContactBlock>
-      </Block>
-      <Block>
-        <FooterTitle>On parle du Rêve Gourmand</FooterTitle>
-        <BedenacLogo alt="Commune de Bédenac" src={bedenacLogo} />
-        <List>
-          <SocialInformations />
-        </List>
       </Block>
     </SocialContainer>
   );

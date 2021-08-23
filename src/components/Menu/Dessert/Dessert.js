@@ -18,8 +18,8 @@ const defaultTheme = {
 };
 
 function Items() {
-  const elements = DessertArray.map((element) => (
-    <List key={element.name}>
+  const elements = DessertArray.map((element, index) => (
+    <List key={`${element.name} - ${index}`}>
       <Title>{element.name.toUpperCase()}</Title>
       <Text>{element.flavor}</Text>
     </List>

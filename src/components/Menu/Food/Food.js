@@ -21,8 +21,8 @@ const defaultTheme = {
 };
 
 function Items() {
-  const elements = foodArray.map((element) => (
-    <List key={element.name}>
+  const elements = foodArray.map((element, index) => (
+    <List key={`${element.name} - ${index}`}>
       <FoodPriceSection>
         <Title>{element.name.toUpperCase()}</Title>
         <Block />

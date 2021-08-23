@@ -1,17 +1,29 @@
 import styled from "styled-components";
 
 import themes from "../../../themes";
+import { devices } from "../../constants";
 
 export const DessertContainer = styled.div`
   position: relative;
+  margin-top: 2.5rem;
+  z-index: 1;
+
+  @media screen and (min-width: ${devices.desktop}px) {
+    margin-top: 0;
+    z-index: -1;
+  }
 `;
 export const ListContainer = styled.ul`
   height: 100%;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 2rem 2rem 2rem 12rem;
+  padding: 2rem;
   margin: 0;
+
+  @media screen and (min-width: ${devices.desktop}px) {
+    padding: 2rem 2rem 2rem 12rem;
+  }
 `;
 export const List = styled.li`
   list-style: none;
