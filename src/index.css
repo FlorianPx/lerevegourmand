@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/fonts/FuturaPTBook.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/fonts/FuturaPTDemi.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/fonts/FuturaPTHeavy.woff") format("woff");
+  font-weight: 800;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Futura", "Helvetica Neue", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
