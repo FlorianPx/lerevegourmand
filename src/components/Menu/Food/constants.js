@@ -20,4 +20,14 @@ export const foodArray = [
       "Crème fraîche, mozzarella, jambon blanc, champignons de Paris, persil",
     price: "8",
   },
+  {
+    name: "La galette du mois",
+    foodstuffs: "A découvrir sur notre page Facebook ! 😁",
+    price: null,
+  },
+  {
+    name: "",
+    foodstuffs: "* Nos galettes sont accompagnées de salade",
+    price: null,
+  },
 ];

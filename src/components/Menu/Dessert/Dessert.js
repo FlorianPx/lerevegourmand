@@ -8,6 +8,7 @@ import {
   Text,
   Title,
 } from "./styledComponents";
+import { FoodPriceSection, Block, Price } from "../Food/styledComponents";
 import { DessertArray } from "./constants";
 
 const defaultTheme = {
@@ -20,7 +21,17 @@ const defaultTheme = {
 function Items() {
   const elements = DessertArray.map((element, index) => (
     <List key={`${element.name} - ${index}`}>
-      <Title>{element.name.toUpperCase()}</Title>
+      <FoodPriceSection>
+        <Title>{element.name.toUpperCase()}</Title>
+        {element.name && element.price && <Block />}
+        <Price>
+          {element.price &&
+            Intl.NumberFormat("fr-FR", {
+              style: "currency",
+              currency: "EUR",
+            }).format(element.price)}
+        </Price>
+      </FoodPriceSection>
       <Text>{element.flavor}</Text>
     </List>
   ));

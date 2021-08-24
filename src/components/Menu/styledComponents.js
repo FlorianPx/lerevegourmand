@@ -8,6 +8,6 @@ export const MenuContainer = styled.section`
 
   @media screen and (min-width: ${devices.desktop}px) {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 `;

@@ -43,16 +43,17 @@ export const Image = styled.img`
     height: 100%;
   }
 `;
-export const Button = styled.button`
+export const Button = styled.a`
   position: absolute;
   bottom: -1rem;
   right: 0;
   height: 2.5rem;
-  border: none;
+  display: flex;
+  align-items: center;
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   color: white;
   background-color: ${themes.darkPink};
   padding: 0 3rem;
-  cursor: pointer;
+  text-decoration: none;
 `;

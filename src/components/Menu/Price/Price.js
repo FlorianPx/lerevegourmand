@@ -2,7 +2,13 @@ import React from "react";
 
 import TitleBlock from "../../TitleBlock/TitleBlock";
 import { menuArray } from "./constants";
-import { PriceContainer, Title, TextContainer } from "./styledComponents";
+import {
+  PriceContainer,
+  Title,
+  TextContainer,
+  Wrapper,
+  Subtitle,
+} from "./styledComponents";
 
 const defaultTheme = {
   titleBlock: "Formule à 12€",
@@ -13,10 +19,13 @@ const defaultTheme = {
 
 function Menu() {
   const formatMenu = menuArray.map((element, index) => (
-    <Title key={`step${index} - ${element}`}>
-      {element}
+    <Wrapper key={`step${index} - ${element.title}`}>
+      <Title>
+        {element.title}
+        {element.subTitle && <Subtitle>{element.subTitle}</Subtitle>}
+      </Title>
       {menuArray.length - 1 !== index && <span>+</span>}
-    </Title>
+    </Wrapper>
   ));
   return formatMenu;
 }

@@ -1,1 +1,5 @@
-export const menuArray = ["Galette", "Dessert", "Boisson"];
+export const menuArray = [
+  { title: "Galette", subTitle: "avec frites et salade" },
+  { title: "Dessert", subTitle: "" },
+  { title: "Boisson", subTitle: "" },
+];

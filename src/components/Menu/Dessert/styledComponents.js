@@ -11,6 +11,8 @@ export const DessertContainer = styled.div`
   @media screen and (min-width: ${devices.desktop}px) {
     margin-top: 0;
     z-index: -1;
+    margin-left: 8rem;
+    width: 80%;
   }
 `;
 export const ListContainer = styled.ul`
@@ -18,18 +20,16 @@ export const ListContainer = styled.ul`
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 0;
-
-  @media screen and (min-width: ${devices.desktop}px) {
-    padding: 2rem 2rem 2rem 12rem;
-  }
 `;
 export const List = styled.li`
   list-style: none;
   margin-bottom: 1rem;
+
   &:last-child {
     margin-top: 3rem;
+    margin-bottom: 0;
   }
 `;
 export const Title = styled.h4`

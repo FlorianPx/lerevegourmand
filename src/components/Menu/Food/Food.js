@@ -25,12 +25,13 @@ function Items() {
     <List key={`${element.name} - ${index}`}>
       <FoodPriceSection>
         <Title>{element.name.toUpperCase()}</Title>
-        <Block />
+        {element.name && element.price && <Block />}
         <Price>
-          {Intl.NumberFormat("fr-FR", {
-            style: "currency",
-            currency: "EUR",
-          }).format(element.price)}
+          {element.price &&
+            Intl.NumberFormat("fr-FR", {
+              style: "currency",
+              currency: "EUR",
+            }).format(element.price)}
         </Price>
       </FoodPriceSection>
       <Text>{element.foodstuffs}</Text>

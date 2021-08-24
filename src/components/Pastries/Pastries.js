@@ -11,6 +11,7 @@ import TitleBlock from "../TitleBlock/TitleBlock";
 import { text } from "./constants";
 import RaspberryPie from "../../assets/images/raspberryPie.png";
 import Cake from "../../assets/svg/cake.svg";
+import Card from "../../assets/pdf/reve_gourmand.pdf";
 
 const defaultTheme = {
   titleBlock: "Pâtisseries & viennoiseries",
@@ -18,8 +19,6 @@ const defaultTheme = {
   themeColor: "pink",
   horizontalLocation: "left",
 };
-
-function handleClick() {}
 
 function Pastries() {
   return (
@@ -29,7 +28,9 @@ function Pastries() {
         <Image src={RaspberryPie} alt="Tarte aux framboises" />
         <Text dangerouslySetInnerHTML={{ __html: text }} />
       </Container>
-      <Button onClick={handleClick}>Télécharger la carte</Button>
+      <Button href={Card} target="_blank">
+        Télécharger la carte
+      </Button>
     </PastriesContainer>
   );
 }

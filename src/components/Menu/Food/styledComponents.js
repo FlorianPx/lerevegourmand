@@ -12,26 +12,25 @@ export const FoodContainer = styled.div`
   @media screen and (min-width: ${devices.desktop}px) {
     z-index: -1;
     margin-top: 0;
+    margin-right: 8rem;
+    width: 80%;
   }
 `;
 export const ListContainer = styled.ul`
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 0;
-
-  @media screen and (min-width: ${devices.desktop}px) {
-    padding: 2rem 12rem 2rem 2rem;
-  }
 `;
 export const List = styled.li`
   list-style: none;
   margin-bottom: 1rem;
   max-width: 100%;
 
-  @media screen and (min-width: ${devices.desktop}px) {
-    max-width: 26rem;
+  &:last-child {
+    margin-top: 3rem;
+    margin-bottom: 0;
   }
 `;
 export const FoodPriceSection = styled.div`
@@ -53,6 +52,8 @@ export const Text = styled.p`
 `;
 export const Block = styled.div`
   height: 2px;
-  width: 54%;
+  width: 100%;
+  margin: 0 1rem 0 0.5rem;
+  flex: 1;
   background-color: ${themes.lighterPink};
 `;

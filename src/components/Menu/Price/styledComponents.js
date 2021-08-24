@@ -19,28 +19,11 @@ export const PriceContainer = styled.div`
     height: 100%;
   }
 `;
+
 export const Title = styled.h4`
-  display: flex;
-  flex-direction: row;
-  color: ${themes.darkYellow};
-  font-weight: 600;
-  font-size: 1.15rem;
   margin: 0;
-  text-align: center;
-
-  @media screen and (min-width: ${devices.mobile}px) {
-    font-size: 1.5rem;
-  }
-
-  > span {
-    margin: 0 10px;
-  }
-
-  @media screen and (min-width: ${devices.desktop}px) {
-    font-size: 2rem;
-    flex-direction: column;
-  }
 `;
+
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -55,5 +38,38 @@ export const TextContainer = styled.div`
   @media screen and (min-width: ${devices.desktop}px) {
     flex-direction: column;
     height: 100%;
+  }
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  color: ${themes.darkYellow};
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+
+  @media screen and (min-width: ${devices.mobile}px) {
+    font-size: 1.2rem;
+  }
+
+  > span {
+    margin: 0 10px;
+  }
+
+  @media screen and (min-width: ${devices.desktop}px) {
+    font-size: 2rem;
+    flex-direction: column;
+  }
+`;
+
+export const Subtitle = styled.span`
+  display: block;
+  font-size: 0.7rem;
+
+  @media screen and (min-width: ${devices.tablet}px) {
+    font-size: 0.875rem;
   }
 `;
