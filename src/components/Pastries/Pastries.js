@@ -11,7 +11,7 @@ import TitleBlock from "../TitleBlock/TitleBlock";
 import { text } from "./constants";
 import RaspberryPie from "../../assets/images/raspberryPie.png";
 import Cake from "../../assets/svg/cake.svg";
-import Card from "../../assets/pdf/reve_gourmand.pdf";
+import Card from "../../assets/pdf/le_reve_gourmand.pdf";
 
 const defaultTheme = {
   titleBlock: "Pâtisseries & viennoiseries",
