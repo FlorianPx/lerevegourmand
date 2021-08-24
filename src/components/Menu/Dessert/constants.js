@@ -20,7 +20,7 @@ export const DessertArray = [
   {
     name: "",
     flavor:
-      "* Contactez-nous ou consultez notre page Facebook pour connaître nos desserts du jour ! 😋 ",
+      "Contactez-nous ou consultez notre page Facebook pour connaître nos desserts du jour ! 😋 ",
     price: null,
   },
 ];

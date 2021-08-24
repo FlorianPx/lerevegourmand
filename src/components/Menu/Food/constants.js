@@ -23,11 +23,11 @@ export const foodArray = [
   {
     name: "La galette du mois",
     foodstuffs: "A découvrir sur notre page Facebook ! 😁",
-    price: null,
+    price: "8",
   },
   {
     name: "",
-    foodstuffs: "* Nos galettes sont accompagnées de salade",
+    foodstuffs: "Nos galettes sont accompagnées de salade",
     price: null,
   },
 ];
