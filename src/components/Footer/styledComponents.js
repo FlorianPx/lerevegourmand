@@ -4,11 +4,17 @@ import { devices } from "../constants";
 
 export const FooterContainer = styled.footer`
   background-color: ${themes.lighterYellow};
-  padding: 1rem 0 2rem;
+  padding: 1rem 0;
 
   @media screen and (min-width: ${devices.tablet}px) {
     padding: 2rem 0;
   }
+`;
+
+export const Copyright = styled.p`
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0;
 `;
 
 export const FooterTitle = styled.h4`
