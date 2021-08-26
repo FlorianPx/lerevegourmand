@@ -1,26 +1,26 @@
-export const DessertArray = [
+export const dessertArray = [
   {
-    name: "La tartelette",
-    flavor:
+    title: "La tartelette",
+    subtitle:
       "Pomme, abricot, prune, citron meringué, chocolat, poire chocolat, normande",
     price: 2,
   },
-  { name: "Le flan pâtissier", flavor: "", price: 2 },
-  { name: "Le baba au rhum", flavor: "", price: 2 },
+  { title: "Le flan pâtissier", subtitle: "", price: 2 },
+  { title: "Le baba au rhum", subtitle: "", price: 2 },
   {
-    name: "La boisson",
-    flavor: "Orangina, Coca-cola, Coca-cola Zéro, Lipton Ice Tea",
+    title: "La boisson",
+    subtitle: "Orangina, Coca-cola, Coca-cola Zéro, Lipton Ice Tea",
     price: 2,
   },
   {
-    name: "La barquette de frites",
-    flavor: "",
+    title: "La barquette de frites",
+    subtitle: "",
     price: 2,
   },
   {
-    name: "",
-    flavor:
-      "Contactez-nous ou consultez notre page Facebook pour connaître nos desserts du jour ! 😋 ",
+    title: "",
+    subtitle: `Contactez-nous ou consultez notre page <a href="https://www.facebook.com/thierrylapatisseire.tampie.5" target="_blank" rel="noreferrer"
+      style={{pointer: "cursor"}}>Facebook</a> pour connaître nos desserts du jour ! 😋`,
     price: null,
   },
 ];
