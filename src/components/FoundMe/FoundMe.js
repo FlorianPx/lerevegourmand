@@ -5,16 +5,18 @@ import {
   Card,
   Anchor,
   Image,
+  TapLogo,
   Text,
   Title,
 } from "./styledComponents";
 import TitleBlock from "../TitleBlock/TitleBlock";
-import MapLogo from "../../assets/svg/map.svg";
+import MapSvg from "../../assets/svg/map.svg";
+import TapSvg from "../../assets/svg/tap.svg";
 import { foundMeArray } from "./constants";
 
 const defaultTheme = {
   titleBlock: "Où me trouver ?",
-  logoBlock: MapLogo,
+  logoBlock: MapSvg,
   themeColor: "yellow",
   horizontalLocation: "right",
 };
@@ -24,6 +26,7 @@ function CardEmplacement() {
     <Card key={card.title}>
       <Anchor target="_blank" rel="noreferrer" href={card.url}>
         <Image src={card.image} alt={card.title} />
+        <TapLogo src={TapSvg} alt="Accéder à l'itinéraire" />
       </Anchor>
       <Title>{card.title}</Title>
       <Text>{card.text}</Text>

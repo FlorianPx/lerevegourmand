@@ -68,9 +68,9 @@ function SocialNetwork() {
           target="_blank"
           rel="noreferrer"
           href="tel:0785142887"
-          title="Appeler le Rêve Gourmand"
+          title="Contacter le Rêve Gourmand"
         >
-          <PhoneLogo src={phoneLogo} alt="Logo pour appeler le Rêve Gourmand" />
+          <PhoneLogo src={phoneLogo} alt="Contacter le Rêve Gourmand" />
           <FooterText>07 85 14 28 87</FooterText>
         </ContactBlock>
       </Block>

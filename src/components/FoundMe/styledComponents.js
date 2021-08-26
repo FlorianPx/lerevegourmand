@@ -25,6 +25,7 @@ export const Card = styled.article`
 `;
 
 export const Anchor = styled.a`
+  position: relative;
   display: flex;
   justify-content: center;
 `;
@@ -33,6 +34,14 @@ export const Image = styled.img`
   width: 100%;
   border-radius: 30px;
   margin-bottom: 0.5rem;
+`;
+export const TapLogo = styled.img`
+  position: absolute;
+  bottom: 10%;
+  right: 6%;
+  width: 1.8rem;
+  backdrop-filter: blur(5px);
+  border-radius: 0.5rem;
 `;
 export const Title = styled.h4`
   color: ${themes.darkYellow};

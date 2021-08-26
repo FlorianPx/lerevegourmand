@@ -1,33 +1,34 @@
 export const foodArray = [
   {
-    name: "La complète",
-    foodstuffs: "Oeuf, jambon blanc, emmental",
+    title: "La complète",
+    subtitle: "Oeuf, jambon blanc, emmental",
     price: "8",
   },
   {
-    name: "La poulet",
-    foodstuffs: "Crème fraîche, mozzarella, poulet",
+    title: "La poulet",
+    subtitle: "Crème fraîche, mozzarella, poulet",
     price: "8",
   },
   {
-    name: "La cabécou",
-    foodstuffs: "Crème fraîche, cabécou, mozzarella, miel",
+    title: "La cabécou",
+    subtitle: "Crème fraîche, cabécou, mozzarella, miel",
     price: "8",
   },
   {
-    name: "La calzonne",
-    foodstuffs:
+    title: "La calzonne",
+    subtitle:
       "Crème fraîche, mozzarella, jambon blanc, champignons de Paris, persil",
     price: "8",
   },
   {
-    name: "La galette du mois",
-    foodstuffs: "A découvrir sur notre page Facebook ! 😁",
+    title: "La galette du mois",
+    subtitle: `A découvrir sur notre page <a href="https://www.facebook.com/thierrylapatisseire.tampie.5" target="_blank" rel="noreferrer"
+    >Facebook</a> ! 😁`,
     price: "8",
   },
   {
-    name: "",
-    foodstuffs: "Nos galettes sont accompagnées de salade",
+    title: "",
+    subtitle: "Nos galettes sont toutes accompagnées de salade",
     price: null,
   },
 ];
