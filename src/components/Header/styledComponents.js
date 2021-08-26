@@ -19,17 +19,32 @@ export const HeaderContainer = styled.header`
   }
 `;
 
-export const LogoTitle = styled.h1`
+export const LogoTitle = styled.div`
   position: absolute;
-  left: 0;
-  right: 0;
   top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: ${devices.tablet}px) {
+    top: -40px;
+  }
+`;
+export const LogoCake = styled.img`
+  width: 7%;
+  padding-right: 0.5rem;
+
+  @media screen and (min-width: ${devices.desktop}px) {
+    width: 5%;
+    padding-right: 1rem;
+  }
+`;
+export const Title = styled.h1`
   font-size: 1.5rem;
   color: ${themes.darkPink};
   line-height: 32px;
 
   @media screen and (min-width: ${devices.tablet}px) {
-    top: -40px;
     font-size: 2.5rem;
   }
 `;
