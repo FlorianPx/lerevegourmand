@@ -8,6 +8,7 @@ export const ListContainer = styled.ul`
   background-color: white;
   padding: 2.5rem;
   margin: 0;
+  height: 100%;
 `;
 export const List = styled.li`
   list-style: none;

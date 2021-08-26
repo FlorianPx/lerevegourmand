@@ -9,7 +9,7 @@ export const Container = styled.div`
   z-index: 1;
 
   @media screen and (min-width: ${devices.desktop}px) {
-    z-index: -1;
+    z-index: 0;
     margin-top: 0;
     margin-left: 8rem;
     width: 80%;
