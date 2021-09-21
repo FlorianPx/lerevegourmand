@@ -16,10 +16,6 @@ export const socialNetWorkArray = [
 
 export const bedenacArray = [
   {
-    title: "Article",
-    url: "https://www.bedenac17.fr/le-reve-gourmand-a-bedenac/",
-  },
-  {
     title: "Annuaire",
     url: "https://www.bedenac17.fr/annuaire/le-reve-gourmand/",
   },

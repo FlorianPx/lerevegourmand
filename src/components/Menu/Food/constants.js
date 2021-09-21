@@ -22,8 +22,7 @@ export const foodArray = [
   },
   {
     title: "La galette du mois",
-    subtitle: `A découvrir sur notre page <a href="https://www.facebook.com/thierrylapatisseire.tampie.5" target="_blank" rel="noreferrer"
-    >Facebook</a> ! 😁`,
+    subtitle: `A découvrir sur notre page <a href="https://www.facebook.com/thierrylapatisseire.tampie.5" target="_blank" rel="noreferrer">Facebook</a> ! 😁`,
     price: "8",
   },
   {

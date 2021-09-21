@@ -20,7 +20,7 @@ export const dessertArray = [
   {
     title: "",
     subtitle: `Contactez-nous ou consultez notre page <a href="https://www.facebook.com/thierrylapatisseire.tampie.5" target="_blank" rel="noreferrer"
-      style={{pointer: "cursor"}}>Facebook</a> pour connaître nos desserts du jour ! 😋`,
+      style={{pointer: "cursor"}, {color:"black"}>Facebook</a> pour connaître nos desserts du jour ! 😋`,
     price: null,
   },
 ];
