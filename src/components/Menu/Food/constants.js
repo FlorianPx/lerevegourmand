@@ -15,7 +15,7 @@ export const foodArray = [
     price: "8",
   },
   {
-    title: "La calzonne",
+    title: "La calzone",
     subtitle:
       "Crème fraîche, mozzarella, jambon blanc, champignons de Paris, persil",
     price: "8",
