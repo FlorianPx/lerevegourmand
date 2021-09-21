@@ -56,4 +56,8 @@ export const Button = styled.a`
   background-color: ${themes.darkPink};
   padding: 0 3rem;
   text-decoration: none;
+
+  &:hover {
+    box-shadow: 0px 0px 18px rgba(193, 37, 74, 0.8);
+  }
 `;

@@ -34,6 +34,10 @@ export const Image = styled.img`
   width: 100%;
   border-radius: 30px;
   margin-bottom: 0.5rem;
+
+  &:hover {
+    box-shadow: 0px 0px 18px rgba(26, 26, 26, 0.3);
+  }
 `;
 export const TapLogo = styled.img`
   position: absolute;
