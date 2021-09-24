@@ -50,10 +50,10 @@ export const Block = styled.div`
   background-color: ${themes.lighterPink};
 `;
 export const FoodImage = styled.img`
-  width: 3rem;
-  height: 3rem;
-  border-radius: 1.5rem;
-  margin-right: 1rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  margin-right: 16px;
   cursor: pointer;
 
   &:hover {
@@ -63,9 +63,9 @@ export const FoodImage = styled.img`
   }
 
   @media screen and (min-width: ${devices.desktop}px) {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 2rem;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
   }
 `;
 export const SectionContainer = styled.div`
