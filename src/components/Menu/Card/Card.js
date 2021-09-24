@@ -9,23 +9,31 @@ import {
   Text,
   Title,
   Block,
+  FoodImage,
+  SectionContainer,
+  TextWrapper,
 } from "./styledComponents";
 
 function Items({ propsArray }) {
   const elements = propsArray.map((element, index) => (
     <List key={`${element.title} - ${index}`}>
-      <Section>
-        <Title>{element.title.toUpperCase()}</Title>
-        {element.title && element.price && <Block />}
-        <Price>
-          {element.price &&
-            Intl.NumberFormat("fr-FR", {
-              style: "currency",
-              currency: "EUR",
-            }).format(element.price)}
-        </Price>
-      </Section>
-      <Text dangerouslySetInnerHTML={{ __html: element.subtitle }} />
+      <SectionContainer>
+        {element.image && <FoodImage src={element.image} alt={element.title} />}
+        <TextWrapper>
+          <Section>
+            <Title>{element.title.toUpperCase()}</Title>
+            {element.title && element.price && <Block />}
+            <Price>
+              {element.price &&
+                Intl.NumberFormat("fr-FR", {
+                  style: "currency",
+                  currency: "EUR",
+                }).format(element.price)}
+            </Price>
+          </Section>
+          <Text dangerouslySetInnerHTML={{ __html: element.subtitle }} />
+        </TextWrapper>
+      </SectionContainer>
     </List>
   ));
 

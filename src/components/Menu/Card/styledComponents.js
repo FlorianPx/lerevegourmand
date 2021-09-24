@@ -1,14 +1,19 @@
 import styled from "styled-components";
 
 import themes from "../../../themes";
+import { devices } from "../../constants";
 
 export const ListContainer = styled.ul`
   border-radius: 30px;
   box-shadow: 0px 0px 30px rgba(26, 26, 26, 0.1);
   background-color: white;
-  padding: 2.5rem;
+  padding: 1.5rem;
   margin: 0;
   height: 100%;
+
+  @media screen and (min-width: ${devices.desktop}px) {
+    padding: 2.5rem;
+  }
 `;
 export const List = styled.li`
   list-style: none;
@@ -43,4 +48,30 @@ export const Block = styled.div`
   margin: 0 1rem 0 0.5rem;
   flex: 1;
   background-color: ${themes.lighterPink};
+`;
+export const FoodImage = styled.img`
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    -ms-transform: scale(3);
+    -webkit-transform: scale(3);
+    transform: scale(3);
+  }
+
+  @media screen and (min-width: ${devices.desktop}px) {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+  }
+`;
+export const SectionContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+export const TextWrapper = styled.div`
+  width: 100%;
 `;
