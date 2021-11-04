@@ -24,7 +24,12 @@ const defaultTheme = {
 function CardEmplacement() {
   const elements = foundMeArray.map((card) => (
     <Card key={card.title}>
-      <Anchor target="_blank" rel="noreferrer" href={card.url}>
+      <Anchor
+        target="_blank"
+        rel="noreferrer"
+        href={card.url}
+        title={card.indication}
+      >
         <Image src={card.image} alt={card.title} />
         <TapLogo src={TapSvg} alt="Accéder à l'itinéraire" />
       </Anchor>
