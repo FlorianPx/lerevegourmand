@@ -13,10 +13,3 @@ export const socialNetWorkArray = [
     url: "https://www.messenger.com/t/100029843478719",
   },
 ];
-
-export const bedenacArray = [
-  {
-    title: "Annuaire",
-    url: "https://www.bedenac17.fr/annuaire/le-reve-gourmand/",
-  },
-];

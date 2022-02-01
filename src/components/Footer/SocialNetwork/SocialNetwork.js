@@ -6,7 +6,6 @@ import {
   Item,
   Anchor,
   SocialLogo,
-  BedenacLogo,
   Block,
   PressBlock,
   ContactBlock,
@@ -14,7 +13,6 @@ import {
 } from "./styledComponents";
 import { socialNetWorkArray, bedenacArray } from "./constants";
 import { FooterTitle, FooterText } from "../styledComponents";
-import bedenacLogo from "../../../assets/images/bedenacLogo.png";
 import phoneLogo from "../../../assets/svg/phone.svg";
 
 const SocialElements = () =>
@@ -56,8 +54,6 @@ function SocialNetwork() {
         </List>
       </Block>
       <PressBlock>
-        <FooterTitle>On parle du Rêve Gourmand</FooterTitle>
-        <BedenacLogo alt="Commune de Bédenac" src={bedenacLogo} />
         <List>
           <SocialInformations />
         </List>
