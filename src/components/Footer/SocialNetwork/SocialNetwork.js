@@ -4,14 +4,12 @@ import {
   SocialContainer,
   List,
   Item,
-  Anchor,
   SocialLogo,
   Block,
-  PressBlock,
   ContactBlock,
   PhoneLogo,
 } from "./styledComponents";
-import { socialNetWorkArray, bedenacArray } from "./constants";
+import { socialNetWorkArray } from "./constants";
 import { FooterTitle, FooterText } from "../styledComponents";
 import phoneLogo from "../../../assets/svg/phone.svg";
 
@@ -30,20 +28,6 @@ const SocialElements = () =>
     </Item>
   ));
 
-const SocialInformations = () =>
-  bedenacArray.map((socialInfo) => (
-    <Item key={socialInfo.title}>
-      <Anchor
-        target="_blank"
-        rel="noreferrer"
-        href={socialInfo.url}
-        title={socialInfo.title}
-      >
-        {socialInfo.title}
-      </Anchor>
-    </Item>
-  ));
-
 function SocialNetwork() {
   return (
     <SocialContainer>
@@ -53,11 +37,6 @@ function SocialNetwork() {
           <SocialElements />
         </List>
       </Block>
-      <PressBlock>
-        <List>
-          <SocialInformations />
-        </List>
-      </PressBlock>
       <Block>
         <FooterTitle>Nous contacter</FooterTitle>
         <ContactBlock

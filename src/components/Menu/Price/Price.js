@@ -11,7 +11,7 @@ import {
 } from "./styledComponents";
 
 const defaultTheme = {
-  titleBlock: "Formule à 12€",
+  titleBlock: "Formule à 13€",
   logoBlock: "",
   themeColor: "yellow",
   horizontalLocation: "center",

@@ -5,12 +5,7 @@ import { devices } from "../constants";
 export const FoundMeContainer = styled.div`
   position: relative;
   display: flex;
-  flex-direction: column;
-
-  @media screen and (min-width: ${devices.tablet}px) {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
+  justify-content: space-between;
 `;
 
 export const Card = styled.article`
@@ -18,13 +13,10 @@ export const Card = styled.article`
   box-shadow: 0px 0px 30px rgb(26 26 26 / 10%);
   background-color: white;
   padding: 1rem;
-  list-style: none;
-  margin-bottom: 1rem;
 
   @media screen and (min-width: ${devices.tablet}px) {
-    margin-left: 1rem;
-    margin-bottom: 0;
-    max-width: 50%;
+    margin: 0;
+    width: 48%;
   }
 `;
 
