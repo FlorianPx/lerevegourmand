@@ -54,10 +54,6 @@ export const SocialLogo = styled.img`
 export const PhoneLogo = styled.img`
   margin-right: 1rem;
 `;
-export const BedenacLogo = styled.img`
-  max-width: 12rem;
-  margin-bottom: 0.5rem;
-`;
 export const Block = styled.div`
   display: flex;
   flex-direction: column;

@@ -4,17 +4,13 @@ import {
   SocialContainer,
   List,
   Item,
-  Anchor,
   SocialLogo,
-  BedenacLogo,
   Block,
-  PressBlock,
   ContactBlock,
   PhoneLogo,
 } from "./styledComponents";
-import { socialNetWorkArray, bedenacArray } from "./constants";
+import { socialNetWorkArray } from "./constants";
 import { FooterTitle, FooterText } from "../styledComponents";
-import bedenacLogo from "../../../assets/images/bedenacLogo.png";
 import phoneLogo from "../../../assets/svg/phone.svg";
 
 const SocialElements = () =>
@@ -32,20 +28,6 @@ const SocialElements = () =>
     </Item>
   ));
 
-const SocialInformations = () =>
-  bedenacArray.map((socialInfo) => (
-    <Item key={socialInfo.title}>
-      <Anchor
-        target="_blank"
-        rel="noreferrer"
-        href={socialInfo.url}
-        title={socialInfo.title}
-      >
-        {socialInfo.title}
-      </Anchor>
-    </Item>
-  ));
-
 function SocialNetwork() {
   return (
     <SocialContainer>
@@ -55,13 +37,6 @@ function SocialNetwork() {
           <SocialElements />
         </List>
       </Block>
-      <PressBlock>
-        <FooterTitle>On parle du Rêve Gourmand</FooterTitle>
-        <BedenacLogo alt="Commune de Bédenac" src={bedenacLogo} />
-        <List>
-          <SocialInformations />
-        </List>
-      </PressBlock>
       <Block>
         <FooterTitle>Nous contacter</FooterTitle>
         <ContactBlock
