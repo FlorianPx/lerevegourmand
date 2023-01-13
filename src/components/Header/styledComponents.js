@@ -25,6 +25,7 @@ export const LogoTitle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1;
 
   @media screen and (min-width: ${devices.tablet}px) {
     top: -40px;
@@ -53,7 +54,7 @@ export const NavbarList = styled.ul`
   justify-content: center;
   color: ${themes.darkYellow};
   list-style: none;
-  padding: 2rem 0 0 0;
+  padding: 3rem 0 0 0;
   font-size: 0.9rem;
   margin-bottom: 1.25rem;
 

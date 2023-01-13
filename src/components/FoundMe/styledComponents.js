@@ -35,6 +35,7 @@ export const Image = styled.img`
   width: 100%;
   border-radius: 30px;
   margin-bottom: 0.5rem;
+  object-fit: cover;
 
   &:hover {
     box-shadow: 0px 0px 18px rgba(26, 26, 26, 0.3);
@@ -43,10 +44,10 @@ export const Image = styled.img`
 
 export const TapLogo = styled.img`
   position: absolute;
-  bottom: 10%;
-  right: 6%;
+  bottom: 8%;
+  right: 10%;
   width: 1.8rem;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(20px);
   border-radius: 0.5rem;
 `;
 

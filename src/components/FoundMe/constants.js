@@ -1,17 +1,17 @@
-import Cercoux from "../../assets/images/cercoux.jpeg";
-import Chierzac from "../../assets/images/chierzac.jpeg";
+import festival from "../../assets/images/festival.jpg";
+import marche from "../../assets/images/marche.jpg";
 
 export const foundMeArray = [
   {
-    image: Cercoux,
-    title: "Route de Pochut",
-    text: "Vendredi 12 août 2022 à partir de 19h",
-    url: "https://goo.gl/maps/NxRWbR6YXE6qmGjN7",
+    image: festival,
+    title: "Festival",
+    text: "Du vendredi 12 au dimanche 14 août 2022",
+    url: "https://goo.gl/maps/EnU8aeXXDicDgSmg6",
   },
   {
-    image: Chierzac,
-    title: "Fête de Chierzac",
-    text: "Du 22 au 24 Juillet 2022",
-    url: "https://goo.gl/maps/1LwqZ4bgNhNoNViU9",
+    image: marche,
+    title: "Place du marché",
+    text: "Tous les samedis matin",
+    url: "https://goo.gl/maps/E8oZrAiN5i95Mu4u5",
   },
 ];

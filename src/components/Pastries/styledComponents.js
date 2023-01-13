@@ -45,8 +45,8 @@ export const Image = styled.img`
 `;
 export const Button = styled.a`
   position: absolute;
-  bottom: -1rem;
-  right: 0;
+  bottom: 1rem;
+  right: 1rem;
   height: 2.5rem;
   display: flex;
   align-items: center;

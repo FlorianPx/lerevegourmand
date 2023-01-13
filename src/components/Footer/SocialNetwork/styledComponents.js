@@ -14,9 +14,9 @@ export const SocialContainer = styled.div`
   margin-bottom: 3rem;
 
   @media screen and (min-width: ${devices.tablet}px) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "a b c";
+    grid-template-areas: "a b";
     grid-auto-flow: row;
   }
 `;

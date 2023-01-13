@@ -42,11 +42,11 @@ function SocialNetwork() {
         <ContactBlock
           target="_blank"
           rel="noreferrer"
-          href="tel:0785142887"
-          title="Contacter le Rêve Gourmand"
+          href=""
+          title="Contacter"
         >
-          <PhoneLogo src={phoneLogo} alt="Contacter le Rêve Gourmand" />
-          <FooterText>07 85 14 28 87</FooterText>
+          <PhoneLogo src={phoneLogo} alt="Appeler" />
+          <FooterText>06 00 00 00 00</FooterText>
         </ContactBlock>
       </Block>
     </SocialContainer>
