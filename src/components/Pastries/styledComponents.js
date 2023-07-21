@@ -24,7 +24,6 @@ export const Container = styled.div`
     flex-direction: row;
     padding: 1rem 1rem 1.5rem;
   }
-}
 `;
 export const Text = styled.p`
   display: flex;
